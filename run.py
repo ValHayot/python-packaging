@@ -31,6 +31,6 @@ def main():
                         help='output filepath. should be a Pillow accepted image format')
 
     args = parser.parse_args()
+    colour(args.input_path, args.output_path)
     
 
-#colour("/home/valeriehayot/Documents/code/passthrough/source/ds000206-download/sub-THP0001/ses-THP0001CCF1/anat/sub-THP0001_ses-THP0001CCF1_run-01_T1w.nii.gz", "colouredbrain.png")
